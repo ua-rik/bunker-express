@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const html = await fetch("https://ua-rik.github.io/bunker-express/game.html")
     .then(res => res.text());
+
   const container = document.createElement("div");
   container.innerHTML = html;
-  document.body.appendChild(container);
+  document.getElementById("game-root").appendChild(container);
 
   const scenes = await fetch("https://ua-rik.github.io/bunker-express/scenes.json")
     .then(res => res.json());
