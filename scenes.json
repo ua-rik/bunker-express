@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Ліс",
+    "options": [
+      { "label": "Зайти", "result": "Темно", "effects": { "health": -10, "hunger": 0, "thirst": 0 } },
+      { "label": "Обійти", "result": "Довше", "effects": { "health": 0, "hunger": 10, "thirst": 10 } },
+      { "label": "Рубати", "result": "Дрова", "effects": { "health": 0, "hunger": -10, "thirst": 10 } }
+    ]
+  },
+  {
+    "text": "Річка",
+    "options": [
+      { "label": "Пити", "result": "Вода", "effects": { "health": 10, "hunger": 0, "thirst": -10 } },
+      { "label": "Купатись", "result": "Освіжився", "effects": { "health": 10, "hunger": 10, "thirst": -10 } },
+      { "label": "Ігнор", "result": "Йдеш далі", "effects": { "health": 0, "hunger": 10, "thirst": 10 } }
+    ]
+  },
+  {
+    "text": "Місто",
+    "options": [
+      { "label": "Шукати їжу", "result": "Знайшов", "effects": { "health": 0, "hunger": -10, "thirst": 0 } },
+      { "label": "Пограбувати", "result": "Успіх", "effects": { "health": 10, "hunger": -10, "thirst": -10, "visual": "побрите волосся" } },
+      { "label": "Втекти", "result": "Цілий", "effects": { "health": 0, "hunger": 10, "thirst": 10 } }
+    ]
+  },
+  {
+    "text": "Сарай",
+    "options": [
+      { "label": "Оглянути", "result": "Порожньо", "effects": { "health": 0, "hunger": 0, "thirst": 0 } },
+      { "label": "Відпочити", "result": "Тиша", "effects": { "health": 10, "hunger": 10, "thirst": 10 } },
+      { "label": "Обвалити", "result": "Зруйнував", "effects": { "health": -10, "hunger": 0, "thirst": 0, "visual": "синяк під лівим оком" } }
+    ]
+  },
+  {
+    "text": "Кладовище",
+    "options": [
+      { "label": "Помолитись", "result": "Спокій", "effects": { "health": 10, "hunger": 0, "thirst": 0 } },
+      { "label": "Вкрасти", "result": "Гріх", "effects": { "health": -10, "hunger": -10, "thirst": -10, "visual": "зламаний палець" } },
+      { "label": "Обійти", "result": "Моторошно", "effects": { "health": 0, "hunger": 10, "thirst": 10 } }
+    ]
+  }
+]
